@@ -1,5 +1,4 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-.env
 # dependencies
 /node_modules
 /.pnp
@@ -36,7 +35,6 @@ yarn-error.log*
 .vercel
 
 #vs-code (debug config)
-.vscode
 launch.json
 
 # typescript
@@ -48,3 +46,4 @@ next-env.d.ts
 # ignore yarn.lock & package-lock
 yarn.lock
 package-lock.json
+config.bat
